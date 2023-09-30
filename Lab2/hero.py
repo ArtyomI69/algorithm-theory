@@ -23,5 +23,5 @@ class Hero:
 
     def attack(self, hero):
         print(f"{self.name} атакует")
-        print(f"{hero.name} имеет {hero.health} здоровья")
         hero.health = hero.health - 20
+        print(f"{hero.name} имеет {hero.health} здоровья")
