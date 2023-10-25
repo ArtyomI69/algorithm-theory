@@ -2,6 +2,7 @@ import random
 
 from hero import Hero
 
+
 def battle(hero1, hero2):
     print("Здоровье обоих героев равно 100")
     while hero1.health > 0 and hero2.health > 0:
@@ -13,11 +14,13 @@ def battle(hero1, hero2):
 
     determine_winner(hero1, hero2)
 
+
 def determine_winner(hero1, hero2):
     if hero1.health == 0:
         print(f"{hero2.name} победил!!!")
     if hero2.health == 0:
         print(f"{hero1.name} победил!!!")
+
 
 hero1 = Hero("Алёша Попович")
 hero2 = Hero("Илья Муромец")
