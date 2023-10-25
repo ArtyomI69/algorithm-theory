@@ -6,10 +6,3 @@ def insertion_sort(alist):
             alist[j + 1] = alist[j]
             j = j - 1
         alist[j + 1] = temp
- 
- 
-alist = input('Введите числа массива: ').split()
-alist = [int(x) for x in alist]
-insertion_sort(alist)
-print('Отсортированный массив: ', end='')
-print(alist)
