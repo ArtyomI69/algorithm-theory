@@ -6,3 +6,4 @@ def insertion_sort(alist):
             alist[j + 1] = alist[j]
             j = j - 1
         alist[j + 1] = temp
+

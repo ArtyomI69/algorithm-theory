@@ -18,3 +18,4 @@ def write_file(a, arr):
     file.write(arr_str)
     # Закрываем файл
     file.close()
+
